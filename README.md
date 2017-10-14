@@ -16,27 +16,15 @@ A repo that contains implementations of the 23 GoF design patterns in various pr
 ## Contribute from your local repository:
 
 1. Fork Repo on Web Page
-2. Clone your fork locally
+2. Clone your fork locally `git clone https://github.com/{your-username}/design-patterns`
 
-`git clone https://github.com/{your-username}/design-patterns`
+3. Create a new branch for your implementation `git checkout -b {programming language}-{design pattern}`
 
-3. Create a new branch for your implementation
-
-`git checkout -b {programming language}-{design pattern}`
-
-example
-
-`git checkout -b python3-decorator`
+Example: `git checkout -b python3-decorator`
 
 4. Create a new directory for your implementation and name the directory after the pattern you are implementing
-5. Commit your file changes
-
-`git commit -m "{Programming language}: {design pattern}"`
-
-6. push your changes to github
-
-`git push`
-
+5. Commit your file changes `git commit -m "{Programming language}: {design pattern}"`
+6. push your changes to github `git push`
 7. Create a Pull Request to master on Web Page
 
 ### Contribute from GitHub.com
